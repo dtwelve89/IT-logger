@@ -30,8 +30,7 @@ const Logs = ({ log: { logs, loading }, getLogs }) => {
 };
 
 Logs.propTypes = {
-  logs: PropTypes.object,
-  loading: PropTypes.string,
+  log: PropTypes.object.isRequired,
   getLogs: PropTypes.func.isRequired
 };
 
